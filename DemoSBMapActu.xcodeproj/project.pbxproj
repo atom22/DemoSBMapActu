@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E23C22B1192B8CBE00FBCF74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E23C22B0192B8CBE00FBCF74 /* Foundation.framework */; };
+		E23C22B3192B8CBE00FBCF74 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E23C22B2192B8CBE00FBCF74 /* CoreGraphics.framework */; };
+		E23C22B5192B8CBE00FBCF74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E23C22B4192B8CBE00FBCF74 /* UIKit.framework */; };
+		E23C22BB192B8CBE00FBCF74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E23C22B9192B8CBE00FBCF74 /* InfoPlist.strings */; };
+		E23C22BD192B8CBE00FBCF74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E23C22BC192B8CBE00FBCF74 /* main.m */; };
+		E23C22C1192B8CBE00FBCF74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E23C22C0192B8CBE00FBCF74 /* AppDelegate.m */; };
+		E23C22C3192B8CBE00FBCF74 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E23C22C2192B8CBE00FBCF74 /* Images.xcassets */; };
+		E23C22CA192B8CBE00FBCF74 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E23C22C9192B8CBE00FBCF74 /* XCTest.framework */; };
+		E23C22CB192B8CBE00FBCF74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E23C22B0192B8CBE00FBCF74 /* Foundation.framework */; };
+		E23C22CC192B8CBE00FBCF74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E23C22B4192B8CBE00FBCF74 /* UIKit.framework */; };
+		E23C22D4192B8CBE00FBCF74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E23C22D2192B8CBE00FBCF74 /* InfoPlist.strings */; };
+		E23C22D6192B8CBE00FBCF74 /* DemoSBMapActuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E23C22D5192B8CBE00FBCF74 /* DemoSBMapActuTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E23C22CD192B8CBE00FBCF74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E23C22A5192B8CBE00FBCF74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E23C22AC192B8CBE00FBCF74;
+			remoteInfo = DemoSBMapActu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E23C22AD192B8CBE00FBCF74 /* DemoSBMapActu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoSBMapActu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E23C22B0192B8CBE00FBCF74 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E23C22B2192B8CBE00FBCF74 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E23C22B4192B8CBE00FBCF74 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E23C22B8192B8CBE00FBCF74 /* DemoSBMapActu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoSBMapActu-Info.plist"; sourceTree = "<group>"; };
+		E23C22BA192B8CBE00FBCF74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E23C22BC192B8CBE00FBCF74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E23C22BE192B8CBE00FBCF74 /* DemoSBMapActu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoSBMapActu-Prefix.pch"; sourceTree = "<group>"; };
+		E23C22BF192B8CBE00FBCF74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E23C22C0192B8CBE00FBCF74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E23C22C2192B8CBE00FBCF74 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E23C22C8192B8CBE00FBCF74 /* DemoSBMapActuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoSBMapActuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E23C22C9192B8CBE00FBCF74 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E23C22D1192B8CBE00FBCF74 /* DemoSBMapActuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoSBMapActuTests-Info.plist"; sourceTree = "<group>"; };
+		E23C22D3192B8CBE00FBCF74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E23C22D5192B8CBE00FBCF74 /* DemoSBMapActuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoSBMapActuTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E23C22AA192B8CBE00FBCF74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23C22B3192B8CBE00FBCF74 /* CoreGraphics.framework in Frameworks */,
+				E23C22B5192B8CBE00FBCF74 /* UIKit.framework in Frameworks */,
+				E23C22B1192B8CBE00FBCF74 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23C22C5192B8CBE00FBCF74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23C22CA192B8CBE00FBCF74 /* XCTest.framework in Frameworks */,
+				E23C22CC192B8CBE00FBCF74 /* UIKit.framework in Frameworks */,
+				E23C22CB192B8CBE00FBCF74 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E23C22A4192B8CBE00FBCF74 = {
+			isa = PBXGroup;
+			children = (
+				E23C22B6192B8CBE00FBCF74 /* DemoSBMapActu */,
+				E23C22CF192B8CBE00FBCF74 /* DemoSBMapActuTests */,
+				E23C22AF192B8CBE00FBCF74 /* Frameworks */,
+				E23C22AE192B8CBE00FBCF74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E23C22AE192B8CBE00FBCF74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E23C22AD192B8CBE00FBCF74 /* DemoSBMapActu.app */,
+				E23C22C8192B8CBE00FBCF74 /* DemoSBMapActuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E23C22AF192B8CBE00FBCF74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E23C22B0192B8CBE00FBCF74 /* Foundation.framework */,
+				E23C22B2192B8CBE00FBCF74 /* CoreGraphics.framework */,
+				E23C22B4192B8CBE00FBCF74 /* UIKit.framework */,
+				E23C22C9192B8CBE00FBCF74 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E23C22B6192B8CBE00FBCF74 /* DemoSBMapActu */ = {
+			isa = PBXGroup;
+			children = (
+				E23C22BF192B8CBE00FBCF74 /* AppDelegate.h */,
+				E23C22C0192B8CBE00FBCF74 /* AppDelegate.m */,
+				E23C22C2192B8CBE00FBCF74 /* Images.xcassets */,
+				E23C22B7192B8CBE00FBCF74 /* Supporting Files */,
+			);
+			path = DemoSBMapActu;
+			sourceTree = "<group>";
+		};
+		E23C22B7192B8CBE00FBCF74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E23C22B8192B8CBE00FBCF74 /* DemoSBMapActu-Info.plist */,
+				E23C22B9192B8CBE00FBCF74 /* InfoPlist.strings */,
+				E23C22BC192B8CBE00FBCF74 /* main.m */,
+				E23C22BE192B8CBE00FBCF74 /* DemoSBMapActu-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E23C22CF192B8CBE00FBCF74 /* DemoSBMapActuTests */ = {
+			isa = PBXGroup;
+			children = (
+				E23C22D5192B8CBE00FBCF74 /* DemoSBMapActuTests.m */,
+				E23C22D0192B8CBE00FBCF74 /* Supporting Files */,
+			);
+			path = DemoSBMapActuTests;
+			sourceTree = "<group>";
+		};
+		E23C22D0192B8CBE00FBCF74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E23C22D1192B8CBE00FBCF74 /* DemoSBMapActuTests-Info.plist */,
+				E23C22D2192B8CBE00FBCF74 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E23C22AC192B8CBE00FBCF74 /* DemoSBMapActu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E23C22D9192B8CBE00FBCF74 /* Build configuration list for PBXNativeTarget "DemoSBMapActu" */;
+			buildPhases = (
+				E23C22A9192B8CBE00FBCF74 /* Sources */,
+				E23C22AA192B8CBE00FBCF74 /* Frameworks */,
+				E23C22AB192B8CBE00FBCF74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoSBMapActu;
+			productName = DemoSBMapActu;
+			productReference = E23C22AD192B8CBE00FBCF74 /* DemoSBMapActu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E23C22C7192B8CBE00FBCF74 /* DemoSBMapActuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E23C22DC192B8CBE00FBCF74 /* Build configuration list for PBXNativeTarget "DemoSBMapActuTests" */;
+			buildPhases = (
+				E23C22C4192B8CBE00FBCF74 /* Sources */,
+				E23C22C5192B8CBE00FBCF74 /* Frameworks */,
+				E23C22C6192B8CBE00FBCF74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E23C22CE192B8CBE00FBCF74 /* PBXTargetDependency */,
+			);
+			name = DemoSBMapActuTests;
+			productName = DemoSBMapActuTests;
+			productReference = E23C22C8192B8CBE00FBCF74 /* DemoSBMapActuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E23C22A5192B8CBE00FBCF74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = IPSTAND;
+				TargetAttributes = {
+					E23C22C7192B8CBE00FBCF74 = {
+						TestTargetID = E23C22AC192B8CBE00FBCF74;
+					};
+				};
+			};
+			buildConfigurationList = E23C22A8192B8CBE00FBCF74 /* Build configuration list for PBXProject "DemoSBMapActu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E23C22A4192B8CBE00FBCF74;
+			productRefGroup = E23C22AE192B8CBE00FBCF74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E23C22AC192B8CBE00FBCF74 /* DemoSBMapActu */,
+				E23C22C7192B8CBE00FBCF74 /* DemoSBMapActuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E23C22AB192B8CBE00FBCF74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23C22BB192B8CBE00FBCF74 /* InfoPlist.strings in Resources */,
+				E23C22C3192B8CBE00FBCF74 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23C22C6192B8CBE00FBCF74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23C22D4192B8CBE00FBCF74 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E23C22A9192B8CBE00FBCF74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23C22C1192B8CBE00FBCF74 /* AppDelegate.m in Sources */,
+				E23C22BD192B8CBE00FBCF74 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23C22C4192B8CBE00FBCF74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23C22D6192B8CBE00FBCF74 /* DemoSBMapActuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E23C22CE192B8CBE00FBCF74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E23C22AC192B8CBE00FBCF74 /* DemoSBMapActu */;
+			targetProxy = E23C22CD192B8CBE00FBCF74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E23C22B9192B8CBE00FBCF74 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E23C22BA192B8CBE00FBCF74 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E23C22D2192B8CBE00FBCF74 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E23C22D3192B8CBE00FBCF74 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E23C22D7192B8CBE00FBCF74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E23C22D8192B8CBE00FBCF74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E23C22DA192B8CBE00FBCF74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoSBMapActu/DemoSBMapActu-Prefix.pch";
+				INFOPLIST_FILE = "DemoSBMapActu/DemoSBMapActu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E23C22DB192B8CBE00FBCF74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoSBMapActu/DemoSBMapActu-Prefix.pch";
+				INFOPLIST_FILE = "DemoSBMapActu/DemoSBMapActu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E23C22DD192B8CBE00FBCF74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DemoSBMapActu.app/DemoSBMapActu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoSBMapActu/DemoSBMapActu-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DemoSBMapActuTests/DemoSBMapActuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E23C22DE192B8CBE00FBCF74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DemoSBMapActu.app/DemoSBMapActu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoSBMapActu/DemoSBMapActu-Prefix.pch";
+				INFOPLIST_FILE = "DemoSBMapActuTests/DemoSBMapActuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E23C22A8192B8CBE00FBCF74 /* Build configuration list for PBXProject "DemoSBMapActu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E23C22D7192B8CBE00FBCF74 /* Debug */,
+				E23C22D8192B8CBE00FBCF74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E23C22D9192B8CBE00FBCF74 /* Build configuration list for PBXNativeTarget "DemoSBMapActu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E23C22DA192B8CBE00FBCF74 /* Debug */,
+				E23C22DB192B8CBE00FBCF74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E23C22DC192B8CBE00FBCF74 /* Build configuration list for PBXNativeTarget "DemoSBMapActuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E23C22DD192B8CBE00FBCF74 /* Debug */,
+				E23C22DE192B8CBE00FBCF74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E23C22A5192B8CBE00FBCF74 /* Project object */;
+}
