@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Y6SideMenuNavigationController.h"
+
+
+@class Y6SideMenuNavigationController;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
+@property (strong, nonatomic) Y6SideMenuNavigationController *navC;
 
 @end

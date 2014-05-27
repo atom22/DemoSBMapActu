@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "HomeViewController.h"
+#import "NewsViewController.h"
+#import "MapViewController.h"
+#import "InfoViewController.h"
 
 @implementation AppDelegate
 
@@ -14,6 +18,20 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    self.navC = [[Y6SideMenuNavigationController alloc] init];
+    
+    [self.navC addSectionWithViewController:[[NewsViewController alloc] initCustom] name:@"Actualités"];
+    [self.navC addSectionWithViewController:[[MapViewController alloc] initCustom] name:@"Evènements"];
+    [self.navC addSectionWithViewController:[[InfoViewController alloc] initCustom] name:@"Informations"];
+    
+    [self.navC setPopToRootOnChange:YES];
+    
+    [self.navC setNavigationBarHidden:YES];
+    
+    [self.window setRootViewController:self.navC];
+    
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

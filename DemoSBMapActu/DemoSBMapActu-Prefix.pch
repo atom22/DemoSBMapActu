@@ -13,4 +13,12 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+
+
+#define BOTTOM_OF_VIEW(VIEW)	([VIEW frame].origin.y + [VIEW frame].size.height)
+#define RIGHT_OF_VIEW(VIEW)		([VIEW frame].origin.x + [VIEW frame].size.width)
+
+#define CELL_HEIGHT 80
+
 #endif
+
